@@ -23,7 +23,7 @@ router.get('/', function (req, res) {
         console.log("X: " + x);
         console.log("Y: " + y);
 
-        if (method == "addition") {
+        if (method == "add") {
             answer = x + y;
             console.log(x + " " + method + " " + y + " = " + answer);
         }
